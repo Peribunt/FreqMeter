@@ -22,7 +22,7 @@ TSCToNs(
  * @param [in] ProcessorNumber: 
  * 
  * @return The frequency of the measured processor in Hz
- * @returns
+ * @return FREQ_MEASUREMENT_ERROR_NO_MEMORY if the function failed at the allocation of the measurement code
 */
 UINT64
 MeasureThreadFrequency( 
