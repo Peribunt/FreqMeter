@@ -5,7 +5,6 @@
 #include <intrin.h>
 
 #define FREQ_MEASUREMENT_ERROR_NO_MEMORY (-1ull << 32) | 0xBAD00001
-#define FREQ_MEASUREMENT_ERROR_
 
 /**
  * @brief Convert a TSC value to nanoseconds
